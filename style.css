@@ -1,3 +1,26 @@
+body {
+    margin:0;
+}
+
+h3 {
+    background-color:  #296bfa;
+    border-radius: 5px;
+    width: 25%;
+    text-align: center;
+    color : white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h3 a {
+    text-decoration: none;
+    color:#e5e3e3;
+}
+
+h3:hover {
+    background-color:  #0d4fdc;
+}
+
 #container
 {
 	margin: 0 30px;
@@ -6,8 +29,9 @@
 
 #header
 {
-	background: #ccc;
+	background: #31333f;
 	padding: 20px;
+    color: white;
 }
 
 #header h1 { margin: 0; }
@@ -60,6 +84,10 @@
 	opacity: 0.83;
 }
 
+#edito:hover {
+    background-color: #e5e3e3;
+}
+
 #edito h2
 {
 	color: #000;
@@ -88,8 +116,18 @@
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: #31333f;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+    color: white;
+}
+
+#footer a {
+    text-decoration: none;
+    color:  #e5e3e3;
+
+}
+#footer a:hover {
+    color: #808080;
 }
